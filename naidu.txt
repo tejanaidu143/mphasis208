@@ -1,0 +1,20 @@
+package List;
+
+import java.util.ArrayList;
+
+public class List3 {
+
+	public static void main(String[] args) {
+		ArrayList<String> alist1= new  ArrayList<> ();
+//		alist1.add("king");
+//		alist1.add("quene");		
+//		alist1.add("kingdom");
+//		alist1.add("empire");
+//		alist1.add("minestor");
+
+		
+		System.out.println(alist1.isEmpty());
+
+	}
+
+}

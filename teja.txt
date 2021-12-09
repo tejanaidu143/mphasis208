@@ -1,0 +1,26 @@
+package List;
+
+import java.util.ArrayList;
+
+public class List9 {
+
+	public static void main(String[] args) {
+		ArrayList<String> alist1= new  ArrayList<> ();
+		alist1.add("king");
+		alist1.add("quene");		
+		alist1.add("kingdom");
+		alist1.add("empire");		
+		alist1.add("minestor");
+		alist1.add("king");
+		//alist1.remove(4);
+		//alist1.remove("minestor");
+		alist1.set(4, "Teja");
+
+
+		System.out.println(alist1.indexOf("king"));
+		
+		System.out.println(alist1.indexOf("King"));
+
+	}
+
+}
